@@ -18,22 +18,22 @@ The following examples will use the string length of 20
 
 --uppercase 
 ```
-./RandomStr --uppercase 20
+RandomStr --uppercase 20
 OQBBAFPYTHWZPVOCHFVZ
 ```
 --lowercase 
 ```
-./RandomStr --lowercase 20
+RandomStr --lowercase 20
 ktdnuepmwajvmqewvcss
 ```
 --numbers 
 ```
-./RandomStr --numbers 20
+RandomStr --numbers 20
 12468829011676092269
 ```
 --special 
 ```
-./RandomStr --special 20
+RandomStr --special 20
 }+&*<@:,"^.@|(`{?<.:
 ```
 
@@ -48,7 +48,8 @@ mVa^~Hi]2jQk+xz)GNI/
 
 ## Installation
 
-You can compile RandomStr with the free an open source "Free Pascal Compiler" just search your distro's packages for "fpc" and install, then to compile you do the following
+I have included an already compiled binary in this repository if don't want to compile,
+Otherwise you can compile RandomStr with the free an open source "Free Pascal Compiler" just search your distro's packages for "fpc" and install, then to compile you do the following
 
 
 ### Compile
