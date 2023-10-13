@@ -58,9 +58,9 @@ use fpc to compile with these optimized options for x86_64, see Build.sh for mor
 $ fpc -Px86_64 -CpCOREAVX2 -CfAVX2 -OpCOREAVX2 -O3 -Mobjfpc -CX -B -XXs -v RandomStr.pas
 ```
 
-or run the included bash script to compile and cleanup
+or run the included Build.sh script to compile and cleanup
 ```bash
-$ ./build.sh
+$ ./Build.sh
 ```
 if you get an error on "ld" not found, install "binutils" package for your distribution
 
