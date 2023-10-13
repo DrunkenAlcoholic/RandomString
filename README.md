@@ -53,7 +53,7 @@ Otherwise you can compile RandomStr with the free an open source "Free Pascal Co
 
 
 ### Compile
-use fpc to compile with these optimized options for x86_64, see cleanup.sh for more details on flag options
+use fpc to compile with these optimized options for x86_64, see Build.sh for more details on flag options
 ```bash
 $ fpc -Px86_64 -CpCOREAVX2 -CfAVX2 -OpCOREAVX2 -O3 -Mobjfpc -CX -B -XXs -v RandomStr.pas
 ```
