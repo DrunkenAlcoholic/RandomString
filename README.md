@@ -82,9 +82,9 @@ $ RandomStr --lowercase 12
 
 ## TODO
 
-- [ ] Create a GUI version
-- [ ] Convert Random String function to in-line assembly 
-- [ ] Reduce the nested else if statements and use GetOption function
+- [ ] Error handling, e.g check to ensure atleast 2 parameters has been entered.
+- [ ] Convert Random String function to in-line assembly, hopefully make it faster, Currently 2 millisecond to generate 1000 chars
+- [ ] Remove the nested else if statements and replace GetOption function
 - [ ] Clean up Code
 
 
