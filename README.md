@@ -17,32 +17,32 @@ at the bare minimum a string length and atleast one option must be given as a pa
 The following examples will use the string length of 20
 
 --uppercase 
-```
-RandomStr --uppercase 20
-OQBBAFPYTHWZPVOCHFVZ
+```bash
+$ RandomStr --uppercase 20
+$ OQBBAFPYTHWZPVOCHFVZ
 ```
 --lowercase 
-```
-RandomStr --lowercase 20
-ktdnuepmwajvmqewvcss
+```bash
+$ RandomStr --lowercase 20
+$ ktdnuepmwajvmqewvcss
 ```
 --numbers 
-```
-RandomStr --numbers 20
-12468829011676092269
+```bash
+$ RandomStr --numbers 20
+$ 12468829011676092269
 ```
 --special 
-```
-RandomStr --special 20
-}+&*<@:,"^.@|(`{?<.:
+```bash
+$ RandomStr --special 20
+$ }+&*<@:,"^.@|(`{?<.:
 ```
 
 You can also use a mix of all or any of the options
 
 --uppercase --lowercase --numbers --special 
-```
-./RandomStr --uppercase --lowercase --numbers --special 20
-mVa^~Hi]2jQk+xz)GNI/
+```bash
+$ RandomStr --uppercase --lowercase --numbers --special 20
+$ mVa^~Hi]2jQk+xz)GNI/
 ```
 
 
