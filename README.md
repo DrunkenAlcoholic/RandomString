@@ -4,8 +4,10 @@
 
 ## About
 
-RandomStr is coded in free pascal and will generate a string when given one or more of the following
-at the bare minimum a string length and atleast one option must be given as a parameter, the following options
+RandomStr is coded in free Pascal and will generate a random string when given one or more optional parameters.
+At the bare minimum, a string length and at least one option must be given as a parameter. 
+
+The following options can be used:
 
 * --uppercase This will use/include UPPERCASE characters
 * --lowercase This will use/include lowercase characters
