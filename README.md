@@ -48,7 +48,7 @@ mVa^~Hi]2jQk+xz)GNI/
 
 ## Installation
 
-You can compile Pasfetch with the free an open source "Free Pascal Compiler" just search your distro's packages for "fpc" and install, then to compile you do the following
+You can compile RandomStr with the free an open source "Free Pascal Compiler" just search your distro's packages for "fpc" and install, then to compile you do the following
 
 
 ### Compile
