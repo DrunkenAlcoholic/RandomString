@@ -16,30 +16,28 @@ at the bare minimum a string length and atleast one option must be given as a pa
 
 The following examples will use the string length of 20
 
---uppercase 
+**--uppercase** 
 ```bash
 $ RandomStr --uppercase 20
 $ OQBBAFPYTHWZPVOCHFVZ
 ```
---lowercase 
+**--lowercase** 
 ```bash
 $ RandomStr --lowercase 20
 $ ktdnuepmwajvmqewvcss
 ```
---numbers 
+**--numbers** 
 ```bash
 $ RandomStr --numbers 20
 $ 12468829011676092269
 ```
---special 
+**--special** 
 ```bash
 $ RandomStr --special 20
 $ }+&*<@:,"^.@|(`{?<.:
 ```
 
-You can also use a mix of all or any of the options
-
---uppercase --lowercase --numbers --special 
+**--uppercase --lowercase --numbers --special** 
 ```bash
 $ RandomStr --uppercase --lowercase --numbers --special 20
 $ mVa^~Hi]2jQk+xz)GNI/
@@ -77,7 +75,7 @@ if you get an error on "ld" not found, install "binutils" package for your distr
 Either call the program by using RandomStr in a shell or add to your .bashrc 
 
 ```bash
-$ RandomStr
+$ RandomStr --lowercase 12
 ```
 
 ## TODO
